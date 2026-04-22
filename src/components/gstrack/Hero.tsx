@@ -21,7 +21,7 @@ export function Hero() {
           <h1 className="font-display text-5xl font-bold leading-[0.95] tracking-tight text-foreground sm:text-6xl lg:text-7xl">
             GSTrack<span className="text-intel text-glow-intel">™</span>
             <span className="mt-3 block text-2xl font-medium text-muted-foreground sm:text-3xl lg:text-4xl">
-              Tracking Without Limits.
+              Track Anything. Covertly.
             </span>
           </h1>
 

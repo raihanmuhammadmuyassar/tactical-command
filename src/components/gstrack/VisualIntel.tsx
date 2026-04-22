@@ -62,7 +62,7 @@ export function VisualIntel() {
         <SectionHeader
           index="// 06"
           label="Visual Intelligence Layer · Optional"
-          title="Location intelligence, fused with live visual context."
+          title="Discover the target. Covertly."
           kicker="CCTV · DRONE · BODYCAM · BINOCULAR · ACTION-CAM"
         />
 
