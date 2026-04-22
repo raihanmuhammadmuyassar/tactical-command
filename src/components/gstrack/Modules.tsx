@@ -4,51 +4,51 @@ const modules = [
   {
     id: "M-01",
     name: "Device Integration Layer",
-    short: "Hardware-agnostic uplink",
+    short: "400+ devices · zero lock-in",
     detail:
-      "Onboards trackers, vehicles, sensors and wearables through a single normalized telemetry pipeline.",
+      "Native integration with 400+ tracking devices across manufacturers and technologies — vehicles, wearables, covert trackers and sensors — unified into one normalized telemetry pipeline.",
   },
   {
     id: "M-02",
     name: "Field Operations App",
-    short: "Operator companion",
+    short: "Real-time field coordination",
     detail:
-      "Tactical mobile interface for ground teams with offline maps, secure handoff and silent alerts.",
+      "Dedicated mobile application giving ground teams live tracking data, dynamic task assignment and continuous coordination — even when conditions change by the minute.",
   },
   {
     id: "M-03",
     name: "Geospatial Intelligence Engine",
-    short: "Spatial reasoning core",
+    short: "Map-based situational awareness",
     detail:
-      "Fuses positional streams with terrain, infrastructure and behavioral overlays in real time.",
+      "Intuitive map interface that turns complex multi-source tracking data into clear visual insight — navigable layers, asset movement and overlays for technical and non-technical users alike.",
   },
   {
     id: "M-04",
     name: "Autonomous Geofencing System",
-    short: "Self-learning perimeters",
+    short: "Zones, triggers, escalations",
     detail:
-      "Dynamic zones that adapt to subject behavior — trigger silent escalations on boundary breach.",
+      "Define virtual perimeters around restricted zones, delivery corridors or areas of interest — automated entry/exit triggers drive proactive monitoring, compliance and silent escalation.",
   },
   {
     id: "M-05",
     name: "Annotation & Tagging Layer",
-    short: "Collaborative intel",
+    short: "Augmented contextual intel",
     detail:
-      "Analyst-grade tagging, evidence chains and case linking across operations and time.",
+      "Enrich tracks with notes, tags and visual markers — capturing not just where assets are but why events occur, building a shared operational picture across teams and time.",
   },
   {
     id: "M-06",
     name: "Predictive Analytics Core",
-    short: "Anticipate, not react",
+    short: "Alerting · reporting · forecasting",
     detail:
-      "ML models forecast next-likely positions, contact networks and high-probability event windows.",
+      "Comprehensive alerting flags critical events the moment they occur, while reporting and analytics turn raw telemetry into trends, optimization and data-driven decisions.",
   },
   {
     id: "M-07",
     name: "Secure & Anonymous Network",
-    short: "Zero-attribution channel",
+    short: "Encrypted · anonymous (optional)",
     detail:
-      "End-to-end encrypted mesh with hardened relays — operators leave no signature on the wire.",
+      "Encrypted connectivity meets enterprise security standards across regulated environments. Optional anonymity protects sensitive identities and operations without compromising visibility.",
   },
 ];
 

@@ -26,9 +26,10 @@ export function Hero() {
           </h1>
 
           <p className="mt-8 max-w-xl text-base leading-relaxed text-muted-foreground sm:text-lg">
-            A covert tracking intelligence system designed for environments where
-            visibility is impossible — denied signal zones, contested terrain,
-            and adversarial networks.
+            An enterprise-grade tracking intelligence platform for intelligence
+            and law enforcement agencies — integrating 400+ devices to follow
+            targets, illicit goods and evidence across denied signal zones,
+            contested terrain and adversarial networks.
           </p>
 
           <div className="mt-10 flex flex-wrap items-center gap-4">
@@ -52,7 +53,7 @@ export function Hero() {
           {/* Telemetry */}
           <div className="mt-14 grid max-w-lg grid-cols-3 gap-px border border-panel-border bg-panel-border/40 font-mono">
             {[
-              { l: "Active Assets", v: "14,322" },
+              { l: "Devices Supported", v: "400+" },
               { l: "Coverage", v: "92 ZONES" },
               { l: "Signal Loss", v: "0.04%" },
             ].map((t) => (
