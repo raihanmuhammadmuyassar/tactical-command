@@ -40,8 +40,8 @@ export function LiveOps() {
         <SectionHeader
           index="// 05"
           label="Live Operation Simulation"
-          title="Real-time tracking. No signal dependency."
-          kicker="Continuous intelligence flow"
+          title="Continuous tracking — even when targets go dark."
+          kicker="Offline-capable · chain-of-custody preserved"
         />
 
         <div className="grid gap-6 lg:grid-cols-[1.4fr_0.6fr]">

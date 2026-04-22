@@ -61,10 +61,20 @@ export function VisualIntel() {
       <div className="mx-auto max-w-[1500px] px-6">
         <SectionHeader
           index="// 06"
-          label="Visual Intelligence Layer"
-          title="See what others can't see."
-          kicker="CCTV · DRONE · RF SENSORS"
+          label="Visual Intelligence Layer · Optional"
+          title="Location intelligence, fused with live visual context."
+          kicker="CCTV · DRONE · BODYCAM · BINOCULAR · ACTION-CAM"
         />
+
+        <p className="mb-10 max-w-3xl text-sm leading-relaxed text-muted-foreground sm:text-base">
+          GSTrack™ integrates with hundreds of CCTV makers, drones, body-worn
+          cameras, connected binoculars and action-camera devices through
+          ready-to-use APIs for live and on-demand streaming. Feeds are
+          time-stamped and automatically associated with the tracked asset —
+          when a target enters a geofenced zone, nearby cameras trigger on
+          their own, surfacing who is in the vehicle, who is near the package,
+          and what is happening around the asset in real time.
+        </p>
 
         <div className="grid gap-4 lg:grid-cols-3">
           {feeds.map((f) => (

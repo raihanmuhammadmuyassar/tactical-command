@@ -95,9 +95,10 @@ export function SystemOverview() {
             <div className="panel p-6">
               <div className="font-mono text-[10px] uppercase tracking-[0.3em] text-muted-foreground">Operational Brief</div>
               <p className="mt-3 text-sm leading-relaxed text-foreground/90">
-                GSTrack™ aggregates multi-source tracking data into a unified
-                operational intelligence layer — fusing satellite, terrestrial
-                and ad-hoc mesh signals into a single ground truth.
+                GSTrack™ integrates with 400+ tracking devices and aggregates
+                their positional streams into a unified operational intelligence
+                layer — fusing satellite, terrestrial and ad-hoc mesh signals
+                into a single ground truth, continuously and on one map.
               </p>
             </div>
           </div>
