@@ -6,9 +6,9 @@ export function Access() {
       <div className="mx-auto max-w-[1500px] px-6">
         <SectionHeader
           index="// 08"
-          label="System Access"
-          title="Request Access to GSTrack™"
-          kicker="Vetted operators only"
+          label="Get In Touch"
+          title="Connect with the GSTrack™ Team"
+          kicker="Contact & recruitment channel"
         />
 
         <div className="panel relative overflow-hidden p-8 sm:p-14 corner-frame">
@@ -21,13 +21,13 @@ export function Access() {
                 ◉ TRANSMISSION SECURE · TLS 1.3 / CURVE25519
               </p>
               <h3 className="mt-4 font-display text-3xl font-bold leading-tight text-foreground sm:text-4xl">
-                The system is closed by default.
-                <span className="block text-muted-foreground">Identify yourself to proceed.</span>
+                Reach the people behind the system.
+                <span className="block text-muted-foreground">Talk to our team or join the mission.</span>
               </h3>
               <p className="mt-5 max-w-xl text-sm leading-relaxed text-muted-foreground">
-                Access to GSTrack™ is granted on a per-operator basis after
-                clearance review. Submit a request through the secure channel
-                or contact command directly.
+                Whether you are evaluating GSTrack™ for your agency or
+                exploring a career with us, get in touch through the secure
+                channel below. Our team will respond on a per-request basis.
               </p>
 
               <div className="mt-8 flex flex-wrap items-center gap-4">
@@ -35,14 +35,14 @@ export function Access() {
                   href="#"
                   className="group relative inline-flex items-center gap-3 overflow-hidden rounded-sm border border-intel/60 bg-gradient-to-br from-intel/30 to-intel/10 px-7 py-4 font-mono text-xs uppercase tracking-[0.3em] text-foreground transition-all hover:border-intel hover:shadow-[var(--shadow-glow-intel)]"
                 >
-                  Request Clearance
+                  Contact Person
                   <span className="text-intel transition-transform group-hover:translate-x-1">→</span>
                 </a>
                 <a
                   href="#"
                   className="inline-flex items-center gap-3 rounded-sm border border-panel-border bg-card/40 px-7 py-4 font-mono text-xs uppercase tracking-[0.3em] text-foreground transition-colors hover:border-foreground/40 hover:bg-card"
                 >
-                  Contact Command
+                  Job Opening
                 </a>
               </div>
             </div>
@@ -50,15 +50,15 @@ export function Access() {
             {/* Clearance card */}
             <div className="panel relative p-6 font-mono text-xs">
               <div className="flex items-center justify-between border-b border-panel-border pb-3 text-[10px] uppercase tracking-[0.3em] text-muted-foreground">
-                <span>Clearance Form · GST-407</span>
-                <span className="text-alert">RESTRICTED</span>
+                <span>Contact Form · GST-407</span>
+                <span className="text-alert">SECURE</span>
               </div>
               <div className="mt-5 space-y-4">
                 {[
-                  ["Operator Codename", "█████████"],
-                  ["Sponsoring Agency", "[ classified ]"],
-                  ["Theatre of Operation", "[ select region ]"],
-                  ["Justification", "[ briefing required ]"],
+                  ["Full Name", "[ your name ]"],
+                  ["Organization", "[ agency / company ]"],
+                  ["Intent", "[ contact · recruitment ]"],
+                  ["Message", "[ brief summary ]"],
                 ].map(([k, v]) => (
                   <div key={k}>
                     <div className="text-[9px] uppercase tracking-[0.3em] text-muted-foreground">{k}</div>

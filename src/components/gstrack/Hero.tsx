@@ -34,10 +34,10 @@ export function Hero() {
 
           <div className="mt-10 flex flex-wrap items-center gap-4">
             <a
-              href="#briefing"
+              href="#access"
               className="group relative inline-flex items-center gap-3 overflow-hidden rounded-sm border border-intel/60 bg-gradient-to-br from-intel/30 to-intel/10 px-7 py-4 font-mono text-xs uppercase tracking-[0.3em] text-foreground transition-all hover:border-intel hover:shadow-[var(--shadow-glow-intel)]"
             >
-              <span className="relative z-10">Enter System</span>
+              <span className="relative z-10">Contact Person</span>
               <span className="relative z-10 text-intel transition-transform group-hover:translate-x-1">→</span>
               <span className="absolute inset-0 -translate-x-full bg-intel/20 transition-transform duration-500 group-hover:translate-x-0" />
             </a>
@@ -46,7 +46,7 @@ export function Hero() {
               className="inline-flex items-center gap-2 px-2 py-2 font-mono text-[11px] uppercase tracking-[0.3em] text-muted-foreground transition-colors hover:text-foreground"
             >
               <span className="h-px w-6 bg-current" />
-              Request Clearance
+              Job Opening
             </a>
           </div>
 
