@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import logo from "@/assets/gstrack-logo.png";
 
 export function StatusBar() {
   const [time, setTime] = useState(new Date());
@@ -14,6 +15,7 @@ export function StatusBar() {
       <div className="mx-auto flex max-w-[1600px] items-center justify-between px-4 py-2 font-mono text-[10px] uppercase tracking-[0.2em] text-muted-foreground sm:text-[11px]">
         <div className="flex items-center gap-4">
           <div className="flex items-center gap-2">
+            <img src={logo} alt="GSTrack logo" className="h-6 w-auto" />
             <span className="relative flex h-2 w-2">
               <span className="absolute inline-flex h-full w-full rounded-full bg-signal opacity-75 dot-blink" />
               <span className="relative inline-flex h-2 w-2 rounded-full bg-signal" />
