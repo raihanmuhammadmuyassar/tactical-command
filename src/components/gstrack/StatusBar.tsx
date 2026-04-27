@@ -15,7 +15,6 @@ export function StatusBar() {
       <div className="mx-auto flex max-w-[1600px] items-center justify-between px-4 py-2 font-mono text-[10px] uppercase tracking-[0.2em] text-muted-foreground sm:text-[11px]">
         <div className="flex items-center gap-4">
           <div className="flex items-center gap-2">
-            <img src={logo} alt="GSTrack logo" className="h-9 w-auto sm:h-10" />
             <span className="relative flex h-2 w-2">
               <span className="absolute inline-flex h-full w-full rounded-full bg-signal opacity-75 dot-blink" />
               <span className="relative inline-flex h-2 w-2 rounded-full bg-signal" />
@@ -25,8 +24,11 @@ export function StatusBar() {
           <span className="hidden sm:inline">NODE / GST-07</span>
           <span className="hidden md:inline">CLEARANCE / TS-SCI</span>
         </div>
-        <div className="font-display text-foreground/90 text-xs tracking-[0.35em]">
-          GSTRACK<span className="text-intel">™</span>
+        <div className="flex items-center gap-2">
+          <img src={logo} alt="GSTrack logo" className="h-9 w-auto sm:h-10" />
+          <span className="font-display text-foreground/90 text-xs tracking-[0.35em]">
+            GSTRACK<span className="text-intel">™</span>
+          </span>
         </div>
         <div className="flex items-center gap-4">
           <span className="hidden md:inline">LAT 24.71034°N</span>
