@@ -20,18 +20,16 @@ export function Hero() {
           </div>
 
           <h1 className="font-display font-bold leading-[0.95] tracking-tight text-foreground">
-            <span className="flex items-center gap-4 sm:gap-5">
-              <img
-                src={logo}
-                alt="GSTrack logo"
-                className="h-14 w-auto shrink-0 sm:h-20 lg:h-24"
-              />
-              <span className="text-5xl sm:text-6xl lg:text-7xl">
+            <img
+              src={logo}
+              alt="GSTrack logo"
+              className="mb-5 h-16 w-auto sm:h-20 lg:h-24"
+            />
+            <span className="block text-3xl font-medium text-muted-foreground sm:text-4xl lg:text-5xl">
+              <span className="text-foreground">
                 GSTrack<span className="text-intel text-glow-intel">™</span>
-              </span>
-            </span>
-            <span className="mt-4 block text-2xl font-medium text-muted-foreground sm:text-3xl lg:text-4xl">
-              Track Anything. Covertly.
+              </span>{" "}
+              Anything. Covertly.
             </span>
           </h1>
 
