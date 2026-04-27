@@ -24,11 +24,8 @@ export function StatusBar() {
           <span className="hidden sm:inline">NODE / GST-07</span>
           <span className="hidden md:inline">CLEARANCE / TS-SCI</span>
         </div>
-        <div className="flex items-center gap-2">
-          <img src={logo} alt="GSTrack logo" className="h-9 w-auto sm:h-10" />
-          <span className="font-display text-foreground/90 text-xs tracking-[0.35em]">
-            GSTRACK<span className="text-intel">™</span>
-          </span>
+        <div className="font-display text-foreground/90 text-xs tracking-[0.35em]">
+          GSTRACK<span className="text-intel">™</span>
         </div>
         <div className="flex items-center gap-4">
           <span className="hidden md:inline">LAT 24.71034°N</span>
