@@ -20,11 +20,21 @@ export function Hero() {
           </div>
 
           <h1 className="font-display font-bold leading-[0.95] tracking-tight text-foreground">
-            <img
-              src={logo}
-              alt="GSTrack logo"
-              className="mb-5 h-24 w-auto sm:h-32 lg:h-40"
-            />
+            <div className="relative mb-6 inline-block">
+              <span
+                aria-hidden
+                className="pointer-events-none absolute inset-0 -z-10 blur-2xl"
+                style={{
+                  background:
+                    "radial-gradient(ellipse at center, oklch(0.62 0.22 295 / 0.35), transparent 65%)",
+                }}
+              />
+              <img
+                src={logo}
+                alt="GSTrack logo"
+                className="h-24 w-auto opacity-90 mix-blend-screen drop-shadow-[0_0_22px_oklch(0.62_0.22_295/0.45)] sm:h-32 lg:h-40"
+              />
+            </div>
             <span className="block text-3xl font-medium text-muted-foreground sm:text-4xl lg:text-5xl">
               <span className="text-foreground">
                 GSTrack<span className="text-intel text-glow-intel">™</span>
