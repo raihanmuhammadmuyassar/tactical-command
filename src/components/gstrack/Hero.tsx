@@ -23,7 +23,7 @@ export function Hero() {
             <img
               src={logo}
               alt="GSTrack logo"
-              className="mb-5 h-16 w-auto sm:h-20 lg:h-24"
+              className="mb-6 h-24 w-auto sm:h-32 lg:h-40"
             />
             <span className="block text-3xl font-medium text-muted-foreground sm:text-4xl lg:text-5xl">
               <span className="text-foreground">
