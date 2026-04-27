@@ -20,13 +20,11 @@ export function Hero() {
           </div>
 
           <h1 className="font-display font-bold leading-[0.95] tracking-tight text-foreground">
-            <div className="mb-6 inline-block bg-black p-4">
-              <img
-                src={logo}
-                alt="GSTrack logo"
-                className="h-24 w-auto sm:h-32 lg:h-40"
-              />
-            </div>
+            <img
+              src={logo}
+              alt="GSTrack logo"
+              className="mb-5 h-16 w-auto sm:h-20 lg:h-24"
+            />
             <span className="block text-3xl font-medium text-muted-foreground sm:text-4xl lg:text-5xl">
               <span className="text-foreground">
                 GSTrack<span className="text-intel text-glow-intel">™</span>
