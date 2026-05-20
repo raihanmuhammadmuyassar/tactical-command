@@ -58,10 +58,10 @@ export function Footer() {
                 COMMS:
               </span>
               <a
-                href="mailto:leonardronny@gmail.com"
+                href="mailto:gstrack@gmail.com"
                 className="transition-colors hover:text-intel"
               >
-                leonardronny@gmail.com
+                gstrack@gmail.com
               </a>
               <span className="border border-panel-border bg-panel/40 px-1 text-[9px] uppercase text-muted-foreground/70">
                 (Ronny)
